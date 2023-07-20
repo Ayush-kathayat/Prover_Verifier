@@ -1,8 +1,9 @@
-# Circuit Logic with Circom Programming Language
+### Title: Polygon zkSNARK Circuit Implementation: Logical Operations
 
-## Description
+## Description:
+Welcome to the GitHub repository for the Polygon zkSNARK Circuit Implementation! In this project, we aim to design and deploy a Zero-Knowledge Succinct Non-Interactive Argument of Knowledge (zkSNARK) circuit on the Polygon blockchain network. The circuit will implement a custom logical gate, enabling secure and privacy-preserving computations.
 
-This project aims to create a custom logic circuit using the Circom programming language. The circuit implements a logical gate that checks whether the output 'q' is the result of multiplying inputs 'a' and 'b'.
+The primary objective of this repository is to develop a circuit using the circom programming language, a popular choice for zkSNARK circuit design due to its efficiency and flexibility. The logical gate implemented within the circuit will allow users to perform specific confidential operations while keeping sensitive inputs hidden from public scrutiny.
 
 ## Getting Started
 
