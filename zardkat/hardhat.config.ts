@@ -1,9 +1,11 @@
+require('dotenv').config();
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
 // https://github.com/projectsophon/hardhat-circom
 import "hardhat-circom";
 // circuits
 import circuits = require('./circuits.config.json')
+
 
 // set env var to the root of the project
 process.env.BASE_PATH = __dirname;
@@ -30,6 +32,13 @@ const config: HardhatUserConfig = {
     // (required) Each object in this array refers to a separate circuit
     circuits: JSON.parse(JSON.stringify(circuits))
   },
+  networks: {
+    mumbai: {
+      url: 'https://rpc-mumbai.maticvigil.com',
+      accounts: [process.env.PRIVATE_KEY],
+    }
+  },
+
 };
 
 export default config;

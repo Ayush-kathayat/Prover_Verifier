@@ -11,6 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "dotenv": "^16.3.1",
     "ffjavascript": "^0.2.57",
     "hardhat": "^2.12.7"
   },
